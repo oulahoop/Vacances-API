@@ -62,6 +62,7 @@ Routes :
 * /api/v1/auth/register
 
 La route register permet de créer un utilisateur avec comme rôle USER et renvoie son token JWT.
+Les routes register et authenticate renvoie le token à ajouter dans le header de la requête (Authorization de type Bearer) 
 
 Pour avoir un accès ADMIN il faut s’authentifier avec les utilisateurs suivants :
 

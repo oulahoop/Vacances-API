@@ -26,7 +26,3 @@ test:
     paths:
       - build
       - .gradle
-
-run:
-    stage: run
-    script: ./gradlew bootRun
